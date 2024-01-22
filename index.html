@@ -29,14 +29,73 @@
         },
       };
     </script>
-
+    <!-- font awoseme -->
+    <script
+      src="https://kit.fontawesome.com/12a0c27746.js"
+      crossorigin="anonymous"
+    ></script>
     <!--CUSTOMS CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header class="container mx-auto px-5">
-        <!-- nav -->
-        <nav></nav>
+    <header class="container md:6 md:mt-12 mx-auto px-5 ">
+      <!-- nav -->
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-normal text-base text-[#424247]"
+              >
+                <li><a href="#" class="text-[#FF4240]">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <h2 class="font-extrabold text-[24px] md:text-[36px] text-[#131318]">
+              Hockey<span class="text-red-500">’</span>s
+            </h2>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul
+              class="space-x-11 menu-horizontal px-1 font-normal text-base text-[#424247]"
+            >
+              <li><a href="#" class="text-[#FF4240]">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <i class="fa-solid fa-magnifying-glass hidden md:block mr-4 text-[#89898B] font-bold text-xl"></i>
+            <button
+              class=" bg-[#FF4240] hover:bg-slate-600  text-white  rounded-lg px-3 py-2 lg:px-6 lg:py-4 text-xl font-bold"
+            >
+              Get Ticket
+            </button>
+          </div>
+        </div>
+      </nav>
     </header>
     <main class="container mx-auto px-5"></main>
     <footer></footer>
