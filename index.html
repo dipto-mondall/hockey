@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header class="container mt-6 md:mt-12 mx-auto px-5">
+    <header class="container mt-6 md:mt-12 mx-auto px-5 mb-10 md:mb-[100px]">
       <!-- nav -->
       <nav>
         <div class="navbar bg-base-100">
@@ -103,92 +103,195 @@
 
       <!-- banner -->
       <div id="banner" class="relative">
-        <div class="carousel w-full mt-7 md:mt-12 ">
-            <div id="slide1" class="carousel-item relative w-full">
-              <img src="./Images/1.png" class="w-full" />
-              <div
-                class="absolute flex justify-center items-center lg:justify-start gap-4 ltransform -translate-y-1/2 left-5 right-5 bottom-0"
+        <div class="carousel w-full mt-7 md:mt-12">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="./Images/1.png" class="w-full" />
+            <div
+              class="absolute flex justify-center items-center lg:justify-start gap-4 ltransform -translate-y-1/2 left-5 right-5 bottom-0"
+            >
+              <a
+                href="#slide4"
+                class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
+                >❮</a
               >
-                <a
-                  href="#slide4"
-                  class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
-                  >❮</a
-                >
-                <a
-                  href="#slide2"
-                  class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
-                  >❯</a
-                >
-              </div>
-            </div>
-            <div id="slide2" class="carousel-item relative w-full">
-              <img src="./Images/2.png" class="w-full object-cover" />
-              <div
-                class="absolute flex justify-center items-center lg:justify-start gap-4 ltransform -translate-y-1/2 left-5 right-5 bottom-0"
+              <a
+                href="#slide2"
+                class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
+                >❯</a
               >
-                <a
-                  href="#slide1"
-                  class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
-                  >❮</a
-                >
-                <a
-                  href="#slide3"
-                  class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
-                  >❯</a
-                >
-              </div>
             </div>
-            <div id="slide3" class="carousel-item relative w-full">
-              <img src="./Images/3.png" class="w-full object-cover" />
-              <div
-                class="absolute flex justify-center items-center lg:justify-start gap-4 ltransform -translate-y-1/2 left-5 right-5 bottom-0"
-              >
-                <a
-                  href="#slide2"
-                  class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
-                  >❮</a
-                >
-                <a
-                  href="#slide4"
-                  class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
-                  >❯</a
-                >
-              </div>
-            </div>
-            <div id="slide4" class="carousel-item relative w-full">
-              <img src="./Images/4.png" class="w-full object-cover" />
-              <div
-                class="absolute flex justify-center items-center lg:justify-start gap-4 ltransform -translate-y-1/2 left-5 right-5 bottom-0"
-              >
-                <a
-                  href="#slide3"
-                  class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
-                  >❮</a
-                >
-                <a
-                  href="#slide1"
-                  class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
-                  >❯</a
-                >
-              </div>
-            </div>
-            <!-- banner text -->
           </div>
-          <!-- banner txt -->
-          <div class="bg-black rounded-xl lg:w-1/3 lg:absolute lg:bottom-[5%] lg:right-10 p-4 lg:p-4">
-            <h2 class="text-base lg:text-xl text-white font-bold">
-              Meet all the heroes from the field
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="./Images/2.png" class="w-full object-cover" />
+            <div
+              class="absolute flex justify-center items-center lg:justify-start gap-4 ltransform -translate-y-1/2 left-5 right-5 bottom-0"
+            >
+              <a
+                href="#slide1"
+                class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="./Images/3.png" class="w-full object-cover" />
+            <div
+              class="absolute flex justify-center items-center lg:justify-start gap-4 ltransform -translate-y-1/2 left-5 right-5 bottom-0"
+            >
+              <a
+                href="#slide2"
+                class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
+                >❮</a
+              >
+              <a
+                href="#slide4"
+                class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="./Images/4.png" class="w-full object-cover" />
+            <div
+              class="absolute flex justify-center items-center lg:justify-start gap-4 ltransform -translate-y-1/2 left-5 right-5 bottom-0"
+            >
+              <a
+                href="#slide3"
+                class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="flex items-center justify-center btn-circle bg-black text-white w-7 h-7 lg:w-10 lg:h-10 p-2"
+                >❯</a
+              >
+            </div>
+          </div>
+          <!-- banner text -->
+        </div>
+        <!-- banner txt -->
+        <div
+          class="bg-black rounded-xl lg:w-1/3 lg:absolute lg:bottom-[5%] lg:right-10 p-4 lg:p-4"
+        >
+          <h2 class="text-base lg:text-xl text-white font-bold">
+            Meet all the heroes from the field
+          </h2>
+          <p class="text-base text-white font-medium opacity-60 mt-2">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-5">
+      <!-- proffesional section -->
+      <section>
+        <div
+          class="text-center border-y-2 border-dotted border-[#13131833] py-6 lg:py-8"
+        >
+          <h2
+            class="text-[#131318] font-extrabold text-xl md:text-3xl mb-4 lg:mb-6"
+          >
+            Professional Hockeys Club
+          </h2>
+          <p
+            class="text-[#13131899] text-base font-medium max-w-[600px] mx-auto"
+          >
+            Hockey is a sport where dedication, passion and inspiration are keys
+            to success, both on and off the ice.
+          </p>
+        </div>
+        <!-- grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-[24px] lg:mt-[50px]">
+
+          <!-- item1 -->
+          <div class="text-center space-y-4">
+            <div class="relative">
+              <span
+                class="loading loading-spinner loading-lg bg-[#FF4240] w-28"
+              ></span>
+              <h6
+                class="text-[#131318] text-[28px] font-extrabold absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] p-4"
+              >
+                87%
+              </h6>
+            </div>
+            <h2 class="text-[#131318] font-semibold text-xl">
+              Prayer Facility
             </h2>
-            <p class="text-base text-white font-medium  opacity-60 mt-2">
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-              turpis placerat dolor.
+            <p class="text-[#13131899] text-base font-normal">
+              A good player plays where the ball is. 
             </p>
           </div>
-      </div>
-     
-    </header>
-    <main class="container mx-auto px-5 mt-24">
-        <h2>uijuijj</h2>
+
+          <!-- item2 -->
+          <div class="text-center space-y-4">
+            <div class="relative">
+              <span
+                class="loading loading-spinner loading-lg bg-[#49D293] w-28"
+              ></span>
+              <h6
+                class="text-[#131318] text-[28px] font-extrabold absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] p-4"
+              >
+                95%
+              </h6>
+            </div>
+            <h2 class="text-[#131318] font-semibold text-xl">
+              Experienced Coach
+            </h2>
+            <p class="text-[#13131899] text-base font-normal">
+              A good player plays where the ball is. 
+            </p>
+          </div>
+
+          <!-- item3 -->
+          <div class="text-center space-y-4">
+            <div class="relative">
+              <span
+                class="loading loading-spinner loading-lg bg-[#FFB546] w-28"
+              ></span>
+              <h6
+                class="text-[#131318] text-[28px] font-extrabold absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] p-4"
+              >
+                90%
+              </h6>
+            </div>
+            <h2 class="text-[#131318] font-semibold text-xl">
+              Senior Player
+            </h2>
+            <p class="text-[#13131899] text-base font-normal">
+              A good player plays where the ball is. 
+            </p>
+          </div>
+
+          <!-- item4 -->
+          <div class="text-center space-y-4">
+            <div class="relative">
+              <span
+                class="loading loading-spinner loading-lg bg-[#4C8DF1] w-28"
+              ></span>
+              <h6
+                class="text-[#131318] text-[28px] font-extrabold absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] p-4"
+              >
+                80%
+              </h6>
+            </div>
+            <h2 class="text-[#131318] font-semibold text-xl">
+              Training Ground
+            </h2>
+            <p class="text-[#13131899] text-base font-normal">
+              A good player plays where the ball is. 
+            </p>
+          </div>
+
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
